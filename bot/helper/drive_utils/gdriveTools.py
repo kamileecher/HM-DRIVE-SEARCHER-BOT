@@ -87,7 +87,7 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             telegra_ph.edit_page(path = self.path[prev_page],
-                                 title = 'TD_SEARCH',
+                                 title = 'HM_MODS',
                                  html_content=content)
         return
 
@@ -101,7 +101,7 @@ class GoogleDriveHelper:
             INDEX += 1          
             if response:
                 if add_title_msg == True:
-                    msg = f'<h3>Search Results for : {fileName}</h3><br>TD_SEARCH <br><br>'
+                    msg = f'<h3>Search Results for : {fileName}</h3><br>HM_MODS <br><br>'
                     add_title_msg = False
                 msg += f"╾────────────╼<br><b>{DRIVE_NAME[INDEX]}</b><br>╾────────────╼<br>"
                 for file in response:
@@ -133,7 +133,7 @@ class GoogleDriveHelper:
             return "No Result Found :(", None
 
         for content in self.telegraph_content :
-            self.path.append(telegra_ph.create_page(title = 'TD_SEARCH',
+            self.path.append(telegra_ph.create_page(title = 'HM_MODS',
                                                 html_content=content )['path'])
 
         self.num_of_path = len(self.path)      
