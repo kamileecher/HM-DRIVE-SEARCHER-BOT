@@ -1,6 +1,5 @@
-This is not my own repo.
-have forked this and added my credits.
-https://telegra.ph/file/d4cc36312959cca9d9382.png
+[![HM DRIVE SEARCHER BOT](https://telegra.ph/file/d4cc36312959cca9d9382.png)](https://t.me/hmrequestbot)
+
 
 
 # What is this repo about?
