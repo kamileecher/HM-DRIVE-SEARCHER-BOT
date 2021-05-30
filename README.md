@@ -129,6 +129,4 @@ sudo docker build . -t search-bot
 ```
 sudo docker run search-bot
 ```
-# Credits :
 
-- python-aria-mirror-bot - [lzzy12](https://github.com/lzzy12/python-aria-mirror-bot)
